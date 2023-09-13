@@ -2,12 +2,12 @@ package animals.stuff;
 
 public class Animal {
 
-    public String animalName[];
+    public String[] animalName;
     public int animalCount;
     public boolean animalAlive;
     public String sound;
 
-    public Animal(int animalCount, boolean animalAlive, String animalName[], String sound) {
+    public Animal(int animalCount, boolean animalAlive, String[] animalName, String sound) {
         this.animalCount = animalCount;
         this.animalName = animalName;
         this.animalAlive = animalAlive;
